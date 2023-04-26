@@ -13,3 +13,5 @@ czastrwania = koniec - start
 os.system("cls")
 print(start) #1 styczeń 1970 rok
 print("wciśnięcie zajęło ci:", czastrwania)
+
+print("it's gałąź")
