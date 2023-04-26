@@ -1,0 +1,15 @@
+print("hello")
+
+import os
+import time
+cyfra=0
+start=time.time()
+while cyfra !=1:
+    print("nie wcisnąłeś \"1\"")
+    cyfra=int(input())
+
+koniec = time.time()
+czastrwania = koniec - start
+os.system("cls")
+print(start) #1 styczeń 1970 rok
+print("wciśnięcie zajęło ci:", czastrwania)
